@@ -1,9 +1,10 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import App from '../components/App';
-import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
+
+import App from '../components/App';
+import { Helmet } from 'react-helmet';
+import React from 'react';
+import { headData } from '../data';
 
 export default () => {
   const { title, lang, description } = headData;

@@ -1,12 +1,12 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import { Helmet } from 'react-helmet';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../style/main.scss';
+
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import { headData } from '../mock/data';
-import '../style/main.scss';
+import { Helmet } from 'react-helmet';
+import { Link } from 'gatsby';
+import React from 'react';
+import { headData } from '../data';
 
 export default () => {
   const { lang } = headData;
