@@ -28,12 +28,17 @@
       height: 100%;
       align-items: center;
       justify-content: center;
+      border-radius: 50%;
 
       @include respond(tab-port) {
         padding-bottom: 6.4rem;
       }
       @include respond(tab-land) {
         height: 100%;
+      }
+
+      .circle {
+        border-radius: 50%;
       }
     }
 
