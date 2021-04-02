@@ -1,10 +1,10 @@
-import React, { useContext } from 'react';
+import React, { useContext } from "react";
 
-import { Container } from 'react-bootstrap';
-import GithubButtons from '../GithubButtons/GithubButtons';
-import { Link } from 'react-scroll';
-import PortfolioContext from '../../context/context';
-import { githubButtons } from '../../data';
+import { Container } from "react-bootstrap";
+import GithubButtons from "../GithubButtons/GithubButtons";
+import { Link } from "react-scroll";
+import PortfolioContext from "../../context/context";
+import { githubButtons } from "../../data";
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
@@ -26,21 +26,25 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                  href={url || "https://github.com/cobidev/gatsby-simplefolio"}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
                 >
-                  <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                  <i className={`fa fa-${name || "refresh"} fa-inverse`} />
                 </a>
               );
             })}
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
+          © {new Date().getFullYear()} -{" "}
+          <a
+            href="https://github.com/filoscoder/portfolio-web"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Filoscoder
           </a>
         </p>
 
