@@ -2,9 +2,10 @@ import { nanoid } from "nanoid";
 
 // HEAD DATA
 export const headData = {
-  title: "Filoscoder site", // e.g: 'Name | Developer'
+  title: "Filoscoder portfolio web", // e.g: 'Name | Developer'
   lang: ["en", "es", "kr"], // e.g: en, es, fr, jp
   description: "Welcome to my portfolio", // e.g: Welcome to my website
+  img: "profile.jpg",
 };
 
 // HERO DATA
@@ -31,6 +32,16 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: "dooboo-charts.png",
+    title: "'Dooboo-ui' (Open-source contribution)",
+    info: "React-native `Chart` ui component",
+    info2:
+      "Stack: Typescript, React-Native, styled-components, Expo (cross-platform)",
+    url: "https://github.com/dooboolab/dooboo-ui/tree/master/packages/Charts",
+    repo: "", // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: "plating.png",

@@ -1,21 +1,30 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../style/main.scss';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../style/main.scss";
 
-import App from '../components/App';
-import { Helmet } from 'react-helmet';
-import React from 'react';
-import { headData } from '../data';
+import App from "../components/App";
+import { Helmet } from "react-helmet";
+import React from "react";
+import { headData } from "../data";
 
 export default () => {
-  const { title, lang, description } = headData;
+  const { title, lang, description, img } = headData;
 
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
         <title>{title}</title>
-        <html lang={lang || 'en'} />
+        <html lang={lang || "en"} />
         <meta name="description" content={description} />
+        <meta property="og:title" content={title} data-rh="true" />
+        <meta property="og:description" content={description} data-rh="true" />
+        <meta
+          property="og:image"
+          content={
+            "https://filoscoder.netlify.app/static/c80f7757ad076ae146f5038df44646aa/89f4f/profile.jpg"
+          }
+          data-rh="true"
+        />
       </Helmet>
       <App />
     </>
