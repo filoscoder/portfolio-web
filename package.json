@@ -2,11 +2,11 @@
   "name": "portfolio-web",
   "private": true,
   "description": "Filoscoder personal portfolio web",
-  "homepage": "http://filoscoder.github.io/portfolio-web",
+  "homepage": "https://filoscoder.github.io/portfolio-web",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d public",
     "predeploy": "yarn build",
     "build": "gatsby build",
     "develop": "gatsby develop",
