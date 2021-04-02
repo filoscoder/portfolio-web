@@ -1,10 +1,13 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "portfolio-web",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Filoscoder personal portfolio web",
+  "homepage": "http://filoscoder.github.io/portfolio-web",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -24,6 +27,7 @@
     "gatsby-plugin-sharp": "^2.6.12",
     "gatsby-source-filesystem": "^2.3.12",
     "gatsby-transformer-sharp": "^2.5.5",
+    "gh-pages": "^3.1.0",
     "nanoid": "^3.1.10",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
@@ -52,7 +56,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/filoscoder/portfolio-web"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
