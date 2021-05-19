@@ -33,7 +33,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'dooboo-select.gif',
+    img: 'dooboo-select.png',
     title: "'Dooboo-ui' (Open-source contribution)",
     info: 'React-native `Select` ui component',
     info2:
