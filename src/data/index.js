@@ -25,7 +25,7 @@ export const aboutData = {
     "Now I'm working as a Software engineer. I am always open to develop on both, client and the server-side.",
   paragraphThree:
     'Love meeting people with different backgrounds & share my insights to them!',
-  paragraphFour: 'I have a very interesting background, take a look 👇',
+  paragraphFour: '👇 I have a very interesting background, take a look!',
   resume:
     'https://drive.google.com/file/d/1gguHUbVpJZGC3Zt-bI3g4G5vz_Rm7hWv/view?usp=sharing', // if no resume, the button will not show up
 };
