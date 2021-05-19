@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Filoscoder portfolio web', // e.g: 'Name | Developer'
+  title: 'Filoscoder', // e.g: 'Name | Developer'
   lang: ['en', 'es', 'kr'], // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio', // e.g: Welcome to my website
   img: 'profile.jpg',
@@ -33,11 +33,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'dooboo-select.gif',
+    title: "'Dooboo-ui' (Open-source contribution)",
+    info: 'React-native `Select` ui component',
+    info2:
+      'Stack: Typescript, React-Native, styled-components, Expo (cross-platform), Jest',
+    url: '',
+    repo: 'https://github.com/dooboolab/dooboo-ui/tree/master/main/Select', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'dooboo-charts.png',
     title: "'Dooboo-ui' (Open-source contribution)",
-    info: 'React-native `Chart` ui component',
+    info: 'React-native `Charts` ui package',
     info2:
-      'Stack: Typescript, React-Native, styled-components, Expo (cross-platform)',
+      'Stack: Typescript, React-Native, styled-components, Expo (cross-platform), Jest',
     url: '',
     repo: 'https://github.com/dooboolab/dooboo-ui/tree/master/packages/Charts', // if no repo, the button will not show up
   },
