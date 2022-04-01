@@ -1,10 +1,10 @@
-import { Col, Container, Row } from 'react-bootstrap';
-import React, { useContext, useEffect, useState } from 'react';
+import { Col, Container, Row } from "react-bootstrap";
+import React, { useContext, useEffect, useState } from "react";
 
-import Fade from 'react-reveal/Fade';
-import AboutImg from '../Image/AboutImg';
-import PortfolioContext from '../../context/context';
-import Title from '../Title/Title';
+import Fade from "react-reveal/Fade";
+import AboutImg from "../Image/AboutImg";
+import PortfolioContext from "../../context/context";
+import Title from "../Title/Title";
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -52,20 +52,20 @@ const About = () => {
             >
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne
-                    || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                  {paragraphOne ||
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae."}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo
-                    || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                  {paragraphTwo ||
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae."}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree
-                    || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit."}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphFour
-                    || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphFour ||
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit."}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

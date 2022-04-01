@@ -1,11 +1,11 @@
-import { Col, Container, Row } from 'react-bootstrap';
-import React, { useContext, useEffect, useState } from 'react';
+import { Col, Container, Row } from "react-bootstrap";
+import React, { useContext, useEffect, useState } from "react";
 
-import Fade from 'react-reveal/Fade';
-import Tilt from 'react-tilt';
-import PortfolioContext from '../../context/context';
-import ProjectImg from '../Image/ProjectImg';
-import Title from '../Title/Title';
+import Fade from "react-reveal/Fade";
+import Tilt from "react-tilt";
+import PortfolioContext from "../../context/context";
+import ProjectImg from "../Image/ProjectImg";
+import Title from "../Title/Title";
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -29,9 +29,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const {
-              title, info, info2, url, repo, img, id,
-            } = project;
+            const { title, info, info2, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
@@ -45,21 +43,21 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">
-                        {title || 'Project Title'}
+                        {title || "Project Title"}
                       </h3>
                       <div>
                         <p>
-                          {info
-                            || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                          {info ||
+                            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae."}
                         </p>
-                        <p className="mb-4">{info2 || ''}</p>
+                        <p className="mb-4">{info2 || ""}</p>
                       </div>
                       {url && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn cta-btn--hero"
-                          href={url || '#!'}
+                          href={url || "#!"}
                         >
                           See Live
                         </a>
@@ -88,7 +86,7 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || repo || '#!'}
+                        href={url || repo || "#!"}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
@@ -103,7 +101,7 @@ const Projects = () => {
                             transition: true,
                             axis: null,
                             reset: true,
-                            easing: 'cubic-bezier(.03,.98,.52,.99)',
+                            easing: "cubic-bezier(.03,.98,.52,.99)",
                           }}
                         >
                           <div data-tilt className="thumbnail rounded">
