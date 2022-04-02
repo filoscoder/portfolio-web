@@ -3,6 +3,7 @@ import "../style/main.scss";
 
 import App from "../components/App";
 import { Helmet } from "react-helmet";
+import React from "react";
 import { headData } from "../data";
 
 export default () => {

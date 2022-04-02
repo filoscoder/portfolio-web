@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from "react";
 import {
   aboutData,
   contactData,
@@ -5,7 +6,6 @@ import {
   heroData,
   projectsData,
 } from "../data";
-import { useEffect, useState } from "react";
 
 import About from "./About/About";
 import Contact from "./Contact/Contact";
