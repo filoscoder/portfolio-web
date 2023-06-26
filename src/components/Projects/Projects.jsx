@@ -2,12 +2,12 @@ import { Col, Container, Row } from "react-bootstrap";
 import React, { useContext, useEffect, useState } from "react";
 
 import Fade from "react-reveal/Fade";
-import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 import PortfolioContext from "../../context/context";
 import ProjectImg from "../Image/ProjectImg";
 import Title from "../Title/Title";
 
-const Projects = () => {
+function Projects() {
   const { projects } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
@@ -119,6 +119,6 @@ const Projects = () => {
       </Container>
     </section>
   );
-};
+}
 
 export default Projects;

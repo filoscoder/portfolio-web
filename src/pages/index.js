@@ -1,12 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/main.scss";
 
-import App from "../components/App";
 import { Helmet } from "react-helmet";
 import React from "react";
+import App from "../components/App";
 import { headData } from "../data";
 
-export default () => {
+export default function index() {
   const { title, lang, description } = headData;
 
   return (
@@ -41,4 +41,4 @@ export default () => {
       <App />
     </>
   );
-};
+}

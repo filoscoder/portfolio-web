@@ -8,7 +8,7 @@ import { Link } from "gatsby";
 import React from "react";
 import { headData } from "../data";
 
-export default () => {
+export default function notFound() {
   const { lang } = headData;
 
   return (
@@ -40,4 +40,4 @@ export default () => {
       </section>
     </>
   );
-};
+}
