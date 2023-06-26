@@ -4,12 +4,12 @@
     "app": {
       "name": "app",
       "assets": [
-        { "name": "webpack-runtime-c74e13cdfc98441a7794.js", "size": 5003 },
-        { "name": "framework-0839940f98ffd910e142.js", "size": 141399 },
-        { "name": "app-dda8c1a03caf16d7db0d.js", "size": 69723 }
+        { "name": "webpack-runtime-c74e13cdfc98441a7794.js", "size": 9284 },
+        { "name": "framework-0839940f98ffd910e142.js", "size": 293091 },
+        { "name": "app-dda8c1a03caf16d7db0d.js", "size": 133832 }
       ],
       "filteredAssets": 0,
-      "assetsSize": 216125,
+      "assetsSize": 436207,
       "filteredAuxiliaryAssets": 3,
       "auxiliaryAssetsSize": 623901
     },
@@ -18,51 +18,51 @@
       "assets": [
         {
           "name": "component---cache-caches-gatsby-plugin-offline-app-shell-js-f9f35fa4ab5bbb9612dd.js",
-          "size": 521
+          "size": 787
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 521,
+      "assetsSize": 787,
       "filteredAuxiliaryAssets": 1,
       "auxiliaryAssetsSize": 1650
     },
     "component---src-pages-404-js": {
       "name": "component---src-pages-404-js",
       "assets": [
-        { "name": "framework-0839940f98ffd910e142.js", "size": 141399 },
+        { "name": "framework-0839940f98ffd910e142.js", "size": 293091 },
         { "name": "styles.8776f565786173d785c6.css", "size": 264349 },
         {
           "name": "e50e9c162871c1d91fba5ce567a5656e16dc6783-a85a47a01d7839d67c17.js",
-          "size": 36507
+          "size": 77757
         },
         {
           "name": "component---src-pages-404-js-9a872005f5c4037a2ef2.js",
-          "size": 1153
+          "size": 2212
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 443408,
+      "assetsSize": 637409,
       "filteredAuxiliaryAssets": 4,
-      "auxiliaryAssetsSize": 559716
+      "auxiliaryAssetsSize": 559836
     },
     "component---src-pages-index-js": {
       "name": "component---src-pages-index-js",
       "assets": [
-        { "name": "framework-0839940f98ffd910e142.js", "size": 141399 },
+        { "name": "framework-0839940f98ffd910e142.js", "size": 293091 },
         { "name": "styles.8776f565786173d785c6.css", "size": 264349 },
         {
           "name": "e50e9c162871c1d91fba5ce567a5656e16dc6783-a85a47a01d7839d67c17.js",
-          "size": 36507
+          "size": 77757
         },
         {
           "name": "component---src-pages-index-js-f9ce50664eb2b6af2c69.js",
-          "size": 73757
+          "size": 136518
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 516012,
+      "assetsSize": 771715,
       "filteredAuxiliaryAssets": 4,
-      "auxiliaryAssetsSize": 801116
+      "auxiliaryAssetsSize": 801242
     }
   },
   "assetsByChunkName": {
