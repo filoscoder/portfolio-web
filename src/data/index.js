@@ -40,7 +40,7 @@ export const projectsData = [
     info2:
       "Stack: Typescript, React-Native, styled-components, Expo (cross-platform), Jest",
     url: "",
-    repo: "https://github.com/dooboolab/dooboo-ui/tree/master/main/Select", // if no repo, the button will not show up
+    repo: "https://github.com/hyochan/dooboo-ui-legacy/tree/master/main/Select", // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -50,7 +50,7 @@ export const projectsData = [
     info2:
       "Stack: Typescript, React-Native, styled-components, Expo (cross-platform), Jest",
     url: "",
-    repo: "https://github.com/dooboolab/dooboo-ui/tree/master/packages/Charts", // if no repo, the button will not show up
+    repo: "https://github.com/hyochan/dooboo-ui-legacy/tree/master/packages/Charts", // if no repo, the button will not show up
   },
   {
     id: nanoid(),
