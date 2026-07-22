@@ -27,7 +27,7 @@ export const aboutData = {
     "Love meeting people with different backgrounds & share my insights to them!",
   paragraphFour: "👇 I have a very interesting background, take a look!",
   resume:
-    "https://drive.google.com/file/d/1_yihrj7X3uUCW34tnefXxyqR1pojtwaj/view?usp=drive_link", // if no resume, the button will not show up
+    "https://www.linkedin.com/in/filoscoder", // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
